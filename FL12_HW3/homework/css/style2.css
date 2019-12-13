@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  width: 1920px;
+  background: #21232e; }
+
+.header {
+  background: url("../img/m-h-night.jpg") center;
+  background-size: cover;
+  height: 720px;
+  border-radius: 0 0 700px 0 / 0 0 300px 0; }
+
+.header-wrap {
+  padding: 20px 0px 0px 193px;
+  position: relative;
+  display: block;
+  max-width: 660px; }
+  .header-wrap div:last-child {
+    padding-top: 50px;
+    padding-left: 0;
+    max-width: 480px; }
+
+.header_button {
+  background: #e3ac00;
+  border: none;
+  border-radius: 5px;
+  color: #f2f3f7;
+  font-family: "Fresca", sans-serif;
+  font-size: 19px;
+  font-weight: bolder;
+  line-height: 2;
+  width: 140px;
+  height: 48px; }
+
+.login {
+  float: right;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 3;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: underline; }
+
+.landing-logo {
+  display: flex; }
+  .landing-logo img {
+    height: 43px; }
+  .landing-logo p {
+    text-align: center;
+    margin: 0;
+    font-family: "Fresca", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    padding: 0px 0 0 15px; }
+    .landing-logo p span {
+      position: relative;
+      letter-spacing: normal;
+      line-height: 1;
+      display: block;
+      font-size: 8px; }
+
+.header_heading {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 72px;
+  line-height: 73px;
+  font-weight: 700;
+  max-width: 500px;
+  margin-bottom: 40px;
+  z-index: 2; }
+  .header_heading::after {
+    content: "";
+    position: absolute;
+    background: #ff4e33;
+    bottom: 0px;
+    left: 0;
+    height: 50px;
+    width: 300px;
+    z-index: -1; }
+
+.header_text {
+  white-space: pre-line;
+  font-family: 'Hind', sans-serif;
+  letter-spacing: 0.01em;
+  opacity: 0.8; }
+
+.section {
+  text-align: center;
+  font-family: "Fresca", sans-serif; }
+
+.section_text {
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 42px;
+  z-index: 2; }
+  .section_text::after {
+    content: "";
+    position: absolute;
+    background: #ff4e33;
+    bottom: 10px;
+    left: 970px;
+    height: 50px;
+    width: 180px;
+    z-index: -1; }
+
+.section_card_wrap {
+  padding: 0 400px;
+  width: 1120px; }
+  .section_card_wrap .section_card:nth-child(1) {
+    height: 325px; }
+  .section_card_wrap .section_card:nth-child(2) {
+    height: 315px; }
+  .section_card_wrap .section_card:nth-child(3) {
+    height: 345px; }
+    .section_card_wrap .section_card:nth-child(3) a {
+      position: relative;
+      top: 40px; }
+
+.section_card {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  background: #3b3f50;
+  margin-bottom: 25px;
+  border-radius: 7px; }
+
+.section_card_heading {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  line-height: 3; }
+
+.section_card_text {
+  color: #ccd1c0;
+  font-family: "Fresca", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 0 95px; }
+
+.section_card_img {
+  border-radius: 7px;
+  height: 100%;
+  width: 100%; }
+
+.section_link {
+  color: #ccd1c0;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: underline; }
+
+.section_banner {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  width: 1200px;
+  height: 145px;
+  margin: 115px 360px 0 360px;
+  padding: 0 160px;
+  background: linear-gradient(30deg, #e3ac00 0%, #922b54 100%);
+  border-radius: 7px;
+  z-index: 1; }
+
+.section_banner_heading {
+  position: relative;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+  z-index: 2; }
+  .section_banner_heading::after {
+    content: "";
+    position: absolute;
+    background: #ff4e33;
+    bottom: 0px;
+    left: 121px;
+    height: 50px;
+    width: 64px;
+    z-index: -1; }
+
+.section_banner_text, .footer_text {
+  color: #ccd1c0;
+  text-align: left; }
+
+.section_banner_button {
+  position: absolute;
+  right: 160px;
+  top: 49px;
+  background: #e3ac00;
+  border: none;
+  border-radius: 5px;
+  color: #f2f3f7;
+  font-family: "Fresca", sans-serif;
+  font-size: 19px;
+  font-weight: bolder;
+  line-height: 2;
+  width: 140px;
+  height: 48px; }
+
+.footer {
+  position: relative;
+  background: #3b3f50;
+  color: #ccd1c0;
+  height: 240px;
+  margin-top: -72px;
+  z-index: -2; }
+
+.footer-wrap {
+  display: flex;
+  padding: 138px 150px 0px 193px; }
+
+.footer_text {
+  width: 350px;
+  font-family: "Fresca", sans-serif;
+  margin: -10px 420px 0 440px; }
+
+.footer-cr {
+  font-family: "Fresca", sans-serif; }
