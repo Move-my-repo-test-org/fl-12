@@ -6,12 +6,12 @@ if (a===null || isNaN(Number(a)) || Number(a)===0) {
 } else {
     a = Number(a);
     b = prompt('Please, input value for b', '1');
-    if (b===null || isNaN(Number(b))) {
+    if (b===null || !b || isNaN(Number(b))) {
       console.log('Invalid input data');
     } else {
         b = Number(b);
         c = prompt('Please, input value for c', '1');
-        if (c===null || isNaN(Number(c))) {
+        if (c===null || !c || isNaN(Number(c))) {
         console.log('Invalid input data');
         } else {
             c = Number(c);
